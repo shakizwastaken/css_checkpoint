@@ -1,0 +1,167 @@
+@font-face {
+    font-family: "lemonSimple";
+    src: url("../LemonMilk/lemon.otf");
+}
+@font-face {
+    font-family: "lemonLight";
+     src: url("../LemonMilk/lemonlight.otf");
+}
+@font-face {
+    font-family: "lemonMed";
+     src: url("../LemonMilk/lemonmed.otf");
+}
+
+* {
+    font-family: 'lemonLight';
+    margin: 0px;
+}
+
+button{
+    border: none;
+    background: none;
+    padding: 0.75rem;
+}
+
+li{
+    list-style: none;
+}
+
+h1 {
+    font-family: 'lemonMed';
+}
+
+nav {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul{
+
+    text-align: center;
+    
+    padding: 1rem;
+}
+
+nav ul li{
+
+    display: inline-block;
+    
+}
+
+nav ul button {
+    font-size: 0.8rem;
+    color: #484848;
+}
+
+nav ul button:hover{
+    transition: 0.5s ;
+    color: cornflowerblue;
+}
+
+header #about {
+
+    height :50rem;
+    
+    padding-left: 7rem;
+    
+    color: white;  
+    background-image: url('../images/mountains.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header #about h1{
+    padding-top: 15%;
+}
+
+header #about button{
+
+    font-family: 'lemonMed';
+
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+
+    background: none;
+    color: white;
+
+    margin-top: 2rem;
+
+    width: 20%;
+}
+
+header #about button:hover{
+    transition: 0.5s;
+    background-color: white;
+    color: black;
+
+}
+
+main{
+    text-align: center;
+    background-color: white;
+    height: 50rem;
+}
+
+main h1{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+main h1:hover{
+    transition: 0.5s ;
+    color: cornflowerblue;
+}
+
+main #work #workSection {
+    margin: 30px;
+    padding: 75px;
+    display: inline-block;
+}
+
+main #work #workSection:hover{
+    transition: 0.5s;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: large;
+}
+
+main dt{
+
+    font-family: 'lemonSimple';
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+}
+
+main #resume {
+    background-color: black;
+    color: white;
+}
+
+main #resume li {
+    display: inline-block;
+    padding: 2rem;
+}
+
+main #resume li:hover {
+    transition: 0.5s;
+    color: cornflowerblue ;
+}
+
+main #contact label{
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+main #contact label:hover{
+    color: cornflowerblue;
+}
+
+main footer{
+    background-color: black;
+    color: white;
+    padding: 5rem;
+}
